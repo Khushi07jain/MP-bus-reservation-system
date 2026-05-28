@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MP Bus Booking</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <nav class="nav">
+      <div class="brand">
+        <span class="brand-mark">MP</span>
+        <div>
+          <strong>MP Bus Desk</strong>
+          <span>Madhya Pradesh routes</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#routes">Bus tickets</a>
+        <a href="#reservations-title">My trips</a>
+        <a href="#help-title">Help</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Madhya Pradesh route network</p>
+        <h1>Plan every MP bus trip from one calm, live travel desk.</h1>
+        <p class="hero-copy">Compare every Madhya Pradesh city pair, pick seats visually, apply smart offers, and keep instant PDF tickets ready for boarding.</p>
+        <div class="city-pills" aria-label="Popular MP routes">
+          <button type="button" data-from="Bhopal" data-to="Indore">Bhopal to Indore</button>
+          <button type="button" data-from="Indore" data-to="Ujjain">Indore to Ujjain</button>
+          <button type="button" data-from="Bhopal" data-to="Jabalpur">Bhopal to Jabalpur</button>
+        </div>
+      </div>
+      <div class="hero-dashboard" aria-label="Live booking summary">
+        <div class="hero-ticket">
+          <span>Featured corridor</span>
+          <strong>Bhopal to Indore</strong>
+          <div class="hero-ticket-line">
+            <b>07:00</b>
+            <i></i>
+            <b>11:10</b>
+          </div>
+          <small>AC Seater | 34 live seats</small>
+        </div>
+        <div class="trust-strip">
+          <div><strong>90</strong><span>MP routes</span></div>
+          <div><strong>Live</strong><span>Seat map</span></div>
+          <div><strong>PDF</strong><span>Instant ticket</span></div>
+        </div>
+      </div>
+    </section>
+
+    <form id="search-form" class="search-shell">
+      <label>
+        From
+        <input id="from" name="from" type="text" placeholder="Bhopal" list="mp-cities">
+      </label>
+      <button class="swap-button" id="swap-route" type="button" aria-label="Swap from and to cities">Swap</button>
+      <label>
+        To
+        <input id="to" name="to" type="text" placeholder="Indore" list="mp-cities">
+      </label>
+      <label>
+        Date
+        <input id="journeyDate" name="journeyDate" type="date">
+      </label>
+      <label>
+        Passengers
+        <input id="passengers" name="passengers" type="number" min="1" max="6" value="1">
+      </label>
+      <button type="submit">Search buses</button>
+    </form>
+    <section class="offer-strip" aria-label="Travel benefits">
+      <div><strong>MPFIRST</strong><span>10% off first booking</span></div>
+      <div><strong>STUDENT</strong><span>Age 25 or below fare saver</span></div>
+      <div><strong>WEEKEND</strong><span>15% off Saturday and Sunday</span></div>
+    </section>
+    <datalist id="mp-cities">
+      <option value="Bhopal"></option>
+      <option value="Indore"></option>
+      <option value="Jabalpur"></option>
+      <option value="Gwalior"></option>
+      <option value="Ujjain"></option>
+      <option value="Sagar"></option>
+      <option value="Rewa"></option>
+      <option value="Satna"></option>
+      <option value="Ratlam"></option>
+      <option value="Dewas"></option>
+    </datalist>
+  </header>
+
+  <main class="layout">
+    <aside class="filters-panel">
+      <div class="section-heading">
+        <p class="eyebrow">Filters</p>
+        <h2>Refine results</h2>
+      </div>
+
+      <label>
+        Sort by
+        <select id="sort">
+          <option value="recommended">Recommended</option>
+          <option value="fare">Lowest fare</option>
+          <option value="departure">Earliest departure</option>
+          <option value="rating">Highest rating</option>
+          <option value="duration">Shortest duration</option>
+        </select>
+      </label>
+
+      <label>
+        Bus type
+        <select id="type-filter">
+          <option value="">All buses</option>
+          <option value="seater">Seater</option>
+          <option value="sleeper">Sleeper</option>
+          <option value="ac">AC</option>
+        </select>
+      </label>
+
+      <label>
+        Departure time
+        <select id="time-filter">
+          <option value="">Any time</option>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+          <option value="night">Night</option>
+        </select>
+      </label>
+
+      <label>
+        Max fare
+        <input id="fare-filter" type="range" min="150" max="900" step="50" value="900">
+      </label>
+      <div class="filter-value" id="fare-value">Up to Rs 900</div>
+
+      <label class="toggle-row">
+        <input id="favorites-only" type="checkbox">
+        Favorites only
+      </label>
+
+      <div class="quick-stats" id="quick-stats"></div>
+
+      <div class="recent-searches" id="recent-searches"></div>
+    </aside>
+
+    <section class="results-panel">
+      <div class="results-heading">
+        <div>
+          <p class="eyebrow">Available buses</p>
+          <h2 id="route-count">Loading routes</h2>
+        </div>
+        <div class="date-chip" id="date-chip">Today</div>
+      </div>
+      <div class="compare-strip" id="compare-strip"></div>
+      <section class="route-list" aria-live="polite" id="routes"></section>
+    </section>
+
+    <aside class="booking-panel" aria-labelledby="booking-title">
+      <div class="section-heading">
+        <p class="eyebrow">Secure booking</p>
+        <h2 id="booking-title">Review trip</h2>
+      </div>
+      <div class="booking-steps">
+        <span class="active">Bus</span>
+        <span>Seats</span>
+        <span>Passenger</span>
+        <span>Ticket</span>
+      </div>
+
+      <div id="selected-route" class="empty-state">Select a bus to choose seats.</div>
+      <div id="trip-summary" class="trip-summary"></div>
+
+      <form id="booking-form" class="booking-form">
+        <div class="point-grid">
+          <label>
+            Boarding point
+            <select id="boardingPoint" name="boardingPoint" required></select>
+          </label>
+          <label>
+            Dropping point
+            <select id="droppingPoint" name="droppingPoint" required></select>
+          </label>
+        </div>
+
+        <div>
+          <div class="seat-header" id="seat-selection">
+            <span>Seat layout</span>
+            <div class="seat-tools">
+              <select id="seat-preference" aria-label="Seat preference">
+                <option value="window">Window first</option>
+                <option value="aisle">Aisle first</option>
+                <option value="together">Keep together</option>
+              </select>
+              <button class="mini-button" id="auto-pick" type="button">Auto pick</button>
+              <button class="mini-button quiet" id="clear-seats" type="button">Clear</button>
+              <span id="seat-summary">0 selected</span>
+            </div>
+          </div>
+          <div class="seat-legend">
+            <span><i></i>Available</span>
+            <span><i class="female"></i>Female</span>
+            <span><i class="male"></i>Male</span>
+            <span><i class="chosen"></i>Selected</span>
+            <span><i class="sold"></i>Booked</span>
+          </div>
+          <div id="seat-map" class="seat-map"></div>
+        </div>
+
+        <div class="passenger-grid">
+          <label>
+            Passenger name
+            <input id="passengerName" name="passengerName" type="text" required>
+          </label>
+          <label>
+            Age
+            <input id="passengerAge" name="passengerAge" type="number" min="1" max="110">
+          </label>
+          <label>
+            Gender
+            <select id="passengerGender" name="passengerGender">
+              <option value="">Select</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Phone number
+            <input id="phone" name="phone" type="tel" required>
+          </label>
+          <label class="wide-field">
+            Email
+            <input id="passengerEmail" name="passengerEmail" type="email" placeholder="ticket@example.com">
+          </label>
+          <label class="wide-field">
+            Promo code
+            <input id="promoCode" name="promoCode" type="text" placeholder="MPFIRST, WEEKEND, STUDENT">
+          </label>
+        </div>
+
+        <div class="fare-box">
+          <div>
+            <span>Total fare</span>
+            <small id="fare-breakdown">No seats selected</small>
+          </div>
+          <strong id="total">Rs 0</strong>
+        </div>
+        <div id="travel-assist" class="travel-assist"></div>
+        <button type="submit">Proceed to book</button>
+      </form>
+      <p id="message" class="message" role="status"></p>
+    </aside>
+
+    <section class="reservations-panel" aria-labelledby="reservations-title">
+      <div class="section-heading">
+        <p class="eyebrow">My trips</p>
+        <h2 id="reservations-title">Current reservations</h2>
+      </div>
+      <form id="ticket-search-form" class="ticket-search">
+        <input id="ticket-search" type="search" placeholder="Search PNR, passenger, phone, or city">
+        <button type="submit">Find ticket</button>
+      </form>
+      <div id="reservations" class="reservations"></div>
+    </section>
+
+    <section class="help-panel" aria-labelledby="help-title">
+      <div class="section-heading">
+        <p class="eyebrow">Support desk</p>
+        <h2 id="help-title">Need help?</h2>
+      </div>
+      <div class="help-grid">
+        <article>
+          <strong>Booking help</strong>
+          <span>Seat selection, passenger details, promo code, and payment guidance.</span>
+        </article>
+        <article>
+          <strong>Trip help</strong>
+          <span>Boarding point, rest stop, sub-stops, reporting time, and live ticket status.</span>
+        </article>
+        <article>
+          <strong>Cancellation help</strong>
+          <span>Cancellation deadline, refund policy, and checked-in ticket support.</span>
+        </article>
+      </div>
+
+      <details class="faq-box">
+        <summary>Common questions</summary>
+        <p><strong>Can I change seats?</strong> Cancel the current ticket and book again if the bus still has seats.</p>
+        <p><strong>Where is my PDF?</strong> It appears in My trips after booking.</p>
+        <p><strong>When should I report?</strong> Report 30 minutes before departure.</p>
+      </details>
+
+      <form id="help-form" class="help-form">
+        <label>
+          Help topic
+          <select id="help-topic" name="helpTopic">
+            <option>Booking issue</option>
+            <option>Seat issue</option>
+            <option>Cancellation issue</option>
+            <option>Boarding/rest stop issue</option>
+          </select>
+        </label>
+        <label>
+          Ticket ID or phone
+          <input id="help-contact" name="helpContact" type="text" placeholder="TKT-1001 or phone number">
+        </label>
+        <label class="wide-field">
+          Message
+          <textarea id="help-message" name="helpMessage" rows="3" placeholder="Describe the problem"></textarea>
+        </label>
+        <button type="submit">Create help request</button>
+      </form>
+      <p id="help-status" class="help-status" role="status"></p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

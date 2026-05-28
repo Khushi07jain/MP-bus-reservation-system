@@ -1,0 +1,3657 @@
+{
+  "buses": [
+    {
+      "id": "MP101",
+      "name": "Narmada Express",
+      "origin": "Bhopal",
+      "destination": "Indore",
+      "departure": "07:00",
+      "arrival": "11:10",
+      "duration": "4h 10m",
+      "fare": 420,
+      "totalSeats": 34,
+      "type": "AC Seater",
+      "rating": 4.5,
+      "reviews": 920,
+      "boardingPoints": [
+        "ISBT Bhopal",
+        "Lalghati Square",
+        "Bairagarh"
+      ],
+      "droppingPoints": [
+        "Vijay Nagar",
+        "Sarwate Bus Stand",
+        "Rajendra Nagar"
+      ],
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP204",
+      "name": "Mahakal Night Rider",
+      "origin": "Indore",
+      "destination": "Ujjain",
+      "departure": "21:30",
+      "arrival": "23:00",
+      "duration": "1h 30m",
+      "fare": 220,
+      "totalSeats": 30,
+      "type": "AC Seater",
+      "rating": 4.6,
+      "reviews": 780,
+      "boardingPoints": [
+        "Sarwate Bus Stand",
+        "Vijay Nagar",
+        "Bengali Square"
+      ],
+      "droppingPoints": [
+        "Nanakheda Bus Stand",
+        "Mahakal Lok Gate",
+        "Freeganj"
+      ],
+      "cancellation": "Instant refund before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP317",
+      "name": "Vindhya Sleeper",
+      "origin": "Bhopal",
+      "destination": "Jabalpur",
+      "departure": "22:15",
+      "arrival": "06:20",
+      "duration": "8h 05m",
+      "fare": 780,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.4,
+      "reviews": 640,
+      "boardingPoints": [
+        "ISBT Bhopal",
+        "MP Nagar",
+        "Mandideep"
+      ],
+      "droppingPoints": [
+        "Jabalpur ISBT",
+        "Madan Mahal",
+        "Vijay Nagar Jabalpur"
+      ],
+      "cancellation": "Free cancellation before 7 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP422",
+      "name": "Fort City Connect",
+      "origin": "Gwalior",
+      "destination": "Bhopal",
+      "departure": "06:45",
+      "arrival": "14:20",
+      "duration": "7h 35m",
+      "fare": 560,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.2,
+      "reviews": 510,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Phool Bagh",
+        "Morar"
+      ],
+      "droppingPoints": [
+        "ISBT Bhopal",
+        "Habibganj",
+        "MP Nagar"
+      ],
+      "cancellation": "Partial refund before 4 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP509",
+      "name": "Bundelkhand Line",
+      "origin": "Sagar",
+      "destination": "Bhopal",
+      "departure": "09:10",
+      "arrival": "13:35",
+      "duration": "4h 25m",
+      "fare": 360,
+      "totalSeats": 30,
+      "type": "Non-AC Seater",
+      "rating": 4.1,
+      "reviews": 430,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Makronia",
+        "Civil Lines Sagar"
+      ],
+      "droppingPoints": [
+        "ISBT Bhopal",
+        "BHEL",
+        "Lalghati Square"
+      ],
+      "cancellation": "Free cancellation before 5 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP612",
+      "name": "Rewa Royal",
+      "origin": "Rewa",
+      "destination": "Satna",
+      "departure": "17:40",
+      "arrival": "19:20",
+      "duration": "1h 40m",
+      "fare": 180,
+      "totalSeats": 28,
+      "type": "Non-AC Seater",
+      "rating": 4,
+      "reviews": 300,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Sirmour Chowk",
+        "University Road"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Civil Lines Satna",
+        "Bharhut Nagar"
+      ],
+      "cancellation": "Free cancellation before 2 hours",
+      "amenities": [
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHOGWA",
+      "name": "Bhopal Gwalior Link",
+      "origin": "Bhopal",
+      "destination": "Gwalior",
+      "departure": "08:21",
+      "arrival": "12:44",
+      "duration": "4h 23m",
+      "fare": 440,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.3,
+      "reviews": 333,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Ratlam",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHOUJJ",
+      "name": "Bhopal Ujjain Link",
+      "origin": "Bhopal",
+      "destination": "Ujjain",
+      "departure": "09:08",
+      "arrival": "14:28",
+      "duration": "5h 20m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 362,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Indore",
+        "name": "Indore Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHOSAG",
+      "name": "Bhopal Sagar Link",
+      "origin": "Bhopal",
+      "destination": "Sagar",
+      "departure": "09:55",
+      "arrival": "16:12",
+      "duration": "6h 17m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.5,
+      "reviews": 391,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Gwalior",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHOREW",
+      "name": "Bhopal Rewa Link",
+      "origin": "Bhopal",
+      "destination": "Rewa",
+      "departure": "10:42",
+      "arrival": "17:11",
+      "duration": "6h 29m",
+      "fare": 790,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.6,
+      "reviews": 420,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHOSAT",
+      "name": "Bhopal Satna Link",
+      "origin": "Bhopal",
+      "destination": "Satna",
+      "departure": "11:29",
+      "arrival": "18:55",
+      "duration": "7h 26m",
+      "fare": 940,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4,
+      "reviews": 449,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Ratlam",
+        "Rewa"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHORAT",
+      "name": "Bhopal Ratlam Link",
+      "origin": "Bhopal",
+      "destination": "Ratlam",
+      "departure": "12:16",
+      "arrival": "20:39",
+      "duration": "8h 23m",
+      "fare": 1010,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.1,
+      "reviews": 478,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Indore",
+        "name": "Indore Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-BHODEW",
+      "name": "Bhopal Dewas Link",
+      "origin": "Bhopal",
+      "destination": "Dewas",
+      "departure": "13:03",
+      "arrival": "21:38",
+      "duration": "8h 35m",
+      "fare": 990,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.2,
+      "reviews": 507,
+      "boardingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Gwalior",
+        "Ujjain"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDBHO",
+      "name": "Indore Bhopal Link",
+      "origin": "Indore",
+      "destination": "Bhopal",
+      "departure": "07:23",
+      "arrival": "10:37",
+      "duration": "3h 14m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.1,
+      "reviews": 283,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Ujjain",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Ujjain",
+        "name": "Ujjain Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDJAB",
+      "name": "Indore Jabalpur Link",
+      "origin": "Indore",
+      "destination": "Jabalpur",
+      "departure": "08:57",
+      "arrival": "11:56",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.3,
+      "reviews": 341,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Rewa",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Rewa",
+        "name": "Rewa Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDGWA",
+      "name": "Indore Gwalior Link",
+      "origin": "Indore",
+      "destination": "Gwalior",
+      "departure": "09:44",
+      "arrival": "13:40",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 370,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDSAG",
+      "name": "Indore Sagar Link",
+      "origin": "Indore",
+      "destination": "Sagar",
+      "departure": "11:18",
+      "arrival": "16:23",
+      "duration": "5h 05m",
+      "fare": 510,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.6,
+      "reviews": 428,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDREW",
+      "name": "Indore Rewa Link",
+      "origin": "Indore",
+      "destination": "Rewa",
+      "departure": "12:05",
+      "arrival": "18:07",
+      "duration": "6h 02m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4,
+      "reviews": 457,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Sagar",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDSAT",
+      "name": "Indore Satna Link",
+      "origin": "Indore",
+      "destination": "Satna",
+      "departure": "12:52",
+      "arrival": "19:51",
+      "duration": "6h 59m",
+      "fare": 880,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.1,
+      "reviews": 486,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDRAT",
+      "name": "Indore Ratlam Link",
+      "origin": "Indore",
+      "destination": "Ratlam",
+      "departure": "13:39",
+      "arrival": "20:50",
+      "duration": "7h 11m",
+      "fare": 850,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.2,
+      "reviews": 515,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Bhopal",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-INDDEW",
+      "name": "Indore Dewas Link",
+      "origin": "Indore",
+      "destination": "Dewas",
+      "departure": "14:26",
+      "arrival": "22:34",
+      "duration": "8h 08m",
+      "fare": 1010,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.3,
+      "reviews": 544,
+      "boardingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABBHO",
+      "name": "Jabalpur Bhopal Link",
+      "origin": "Jabalpur",
+      "destination": "Bhopal",
+      "departure": "08:46",
+      "arrival": "12:57",
+      "duration": "4h 11m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.2,
+      "reviews": 320,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Rewa"
+      ],
+      "restStop": {
+        "city": "Rewa",
+        "name": "Rewa Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABIND",
+      "name": "Jabalpur Indore Link",
+      "origin": "Jabalpur",
+      "destination": "Indore",
+      "departure": "09:33",
+      "arrival": "12:32",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.3,
+      "reviews": 349,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Rewa",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Rewa",
+        "name": "Rewa Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABGWA",
+      "name": "Jabalpur Gwalior Link",
+      "origin": "Jabalpur",
+      "destination": "Gwalior",
+      "departure": "11:07",
+      "arrival": "14:36",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.5,
+      "reviews": 407,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Ratlam",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABUJJ",
+      "name": "Jabalpur Ujjain Link",
+      "origin": "Jabalpur",
+      "destination": "Ujjain",
+      "departure": "11:54",
+      "arrival": "15:35",
+      "duration": "3h 41m",
+      "fare": 370,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.6,
+      "reviews": 436,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABSAG",
+      "name": "Jabalpur Sagar Link",
+      "origin": "Jabalpur",
+      "destination": "Sagar",
+      "departure": "12:41",
+      "arrival": "17:19",
+      "duration": "4h 38m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 465,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Gwalior",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABREW",
+      "name": "Jabalpur Rewa Link",
+      "origin": "Jabalpur",
+      "destination": "Rewa",
+      "departure": "13:28",
+      "arrival": "19:03",
+      "duration": "5h 35m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.1,
+      "reviews": 494,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABSAT",
+      "name": "Jabalpur Satna Link",
+      "origin": "Jabalpur",
+      "destination": "Satna",
+      "departure": "14:15",
+      "arrival": "20:02",
+      "duration": "5h 47m",
+      "fare": 580,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 523,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Ratlam",
+        "Ujjain"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABRAT",
+      "name": "Jabalpur Ratlam Link",
+      "origin": "Jabalpur",
+      "destination": "Ratlam",
+      "departure": "15:02",
+      "arrival": "21:46",
+      "duration": "6h 44m",
+      "fare": 880,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.3,
+      "reviews": 552,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-JABDEW",
+      "name": "Jabalpur Dewas Link",
+      "origin": "Jabalpur",
+      "destination": "Dewas",
+      "departure": "15:49",
+      "arrival": "23:30",
+      "duration": "7h 41m",
+      "fare": 940,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.4,
+      "reviews": 581,
+      "boardingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Gwalior",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWAIND",
+      "name": "Gwalior Indore Link",
+      "origin": "Gwalior",
+      "destination": "Indore",
+      "departure": "10:56",
+      "arrival": "14:52",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 386,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWAJAB",
+      "name": "Gwalior Jabalpur Link",
+      "origin": "Gwalior",
+      "destination": "Jabalpur",
+      "departure": "11:43",
+      "arrival": "15:12",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.5,
+      "reviews": 415,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Ratlam",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWAUJJ",
+      "name": "Gwalior Ujjain Link",
+      "origin": "Gwalior",
+      "destination": "Ujjain",
+      "departure": "13:17",
+      "arrival": "16:31",
+      "duration": "3h 14m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 473,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Bhopal",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWASAG",
+      "name": "Gwalior Sagar Link",
+      "origin": "Gwalior",
+      "destination": "Sagar",
+      "departure": "14:04",
+      "arrival": "18:15",
+      "duration": "4h 11m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.1,
+      "reviews": 502,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWAREW",
+      "name": "Gwalior Rewa Link",
+      "origin": "Gwalior",
+      "destination": "Rewa",
+      "departure": "14:51",
+      "arrival": "19:14",
+      "duration": "4h 23m",
+      "fare": 440,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 531,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Sagar",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWASAT",
+      "name": "Gwalior Satna Link",
+      "origin": "Gwalior",
+      "destination": "Satna",
+      "departure": "15:38",
+      "arrival": "20:58",
+      "duration": "5h 20m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 560,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWARAT",
+      "name": "Gwalior Ratlam Link",
+      "origin": "Gwalior",
+      "destination": "Ratlam",
+      "departure": "16:25",
+      "arrival": "22:42",
+      "duration": "6h 17m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.4,
+      "reviews": 589,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Bhopal",
+        "Rewa"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-GWADEW",
+      "name": "Gwalior Dewas Link",
+      "origin": "Gwalior",
+      "destination": "Dewas",
+      "departure": "17:12",
+      "arrival": "23:41",
+      "duration": "6h 29m",
+      "fare": 790,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.5,
+      "reviews": 618,
+      "boardingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJBHO",
+      "name": "Ujjain Bhopal Link",
+      "origin": "Ujjain",
+      "destination": "Bhopal",
+      "departure": "11:32",
+      "arrival": "16:52",
+      "duration": "5h 20m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 394,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Indore",
+        "name": "Indore Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJIND",
+      "name": "Ujjain Indore Link",
+      "origin": "Ujjain",
+      "destination": "Indore",
+      "departure": "12:19",
+      "arrival": "17:12",
+      "duration": "4h 53m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.5,
+      "reviews": 423,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Bhopal",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJJAB",
+      "name": "Ujjain Jabalpur Link",
+      "origin": "Ujjain",
+      "destination": "Jabalpur",
+      "departure": "13:06",
+      "arrival": "16:47",
+      "duration": "3h 41m",
+      "fare": 370,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.6,
+      "reviews": 452,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJGWA",
+      "name": "Ujjain Gwalior Link",
+      "origin": "Ujjain",
+      "destination": "Gwalior",
+      "departure": "13:53",
+      "arrival": "17:07",
+      "duration": "3h 14m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 481,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Bhopal",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJSAG",
+      "name": "Ujjain Sagar Link",
+      "origin": "Ujjain",
+      "destination": "Sagar",
+      "departure": "15:27",
+      "arrival": "18:26",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 539,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Jabalpur",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJREW",
+      "name": "Ujjain Rewa Link",
+      "origin": "Ujjain",
+      "destination": "Rewa",
+      "departure": "16:14",
+      "arrival": "20:10",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 568,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJSAT",
+      "name": "Ujjain Satna Link",
+      "origin": "Ujjain",
+      "destination": "Satna",
+      "departure": "17:01",
+      "arrival": "21:54",
+      "duration": "4h 53m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 597,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Ratlam",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJRAT",
+      "name": "Ujjain Ratlam Link",
+      "origin": "Ujjain",
+      "destination": "Ratlam",
+      "departure": "17:48",
+      "arrival": "22:53",
+      "duration": "5h 05m",
+      "fare": 510,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.5,
+      "reviews": 626,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-UJJDEW",
+      "name": "Ujjain Dewas Link",
+      "origin": "Ujjain",
+      "destination": "Dewas",
+      "departure": "18:35",
+      "arrival": "00:37",
+      "duration": "6h 02m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.6,
+      "reviews": 655,
+      "boardingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Jabalpur",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGIND",
+      "name": "Sagar Indore Link",
+      "origin": "Sagar",
+      "destination": "Indore",
+      "departure": "13:42",
+      "arrival": "18:47",
+      "duration": "5h 05m",
+      "fare": 510,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.6,
+      "reviews": 460,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGJAB",
+      "name": "Sagar Jabalpur Link",
+      "origin": "Sagar",
+      "destination": "Jabalpur",
+      "departure": "14:29",
+      "arrival": "19:07",
+      "duration": "4h 38m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 489,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Gwalior",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGGWA",
+      "name": "Sagar Gwalior Link",
+      "origin": "Sagar",
+      "destination": "Gwalior",
+      "departure": "15:16",
+      "arrival": "19:27",
+      "duration": "4h 11m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.1,
+      "reviews": 518,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGUJJ",
+      "name": "Sagar Ujjain Link",
+      "origin": "Sagar",
+      "destination": "Ujjain",
+      "departure": "16:03",
+      "arrival": "19:02",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 547,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Jabalpur",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGREW",
+      "name": "Sagar Rewa Link",
+      "origin": "Sagar",
+      "destination": "Rewa",
+      "departure": "17:37",
+      "arrival": "21:06",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 605,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Ujjain",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Ujjain",
+        "name": "Ujjain Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGSAT",
+      "name": "Sagar Satna Link",
+      "origin": "Sagar",
+      "destination": "Satna",
+      "departure": "18:24",
+      "arrival": "22:05",
+      "duration": "3h 41m",
+      "fare": 370,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.5,
+      "reviews": 634,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGRAT",
+      "name": "Sagar Ratlam Link",
+      "origin": "Sagar",
+      "destination": "Ratlam",
+      "departure": "19:11",
+      "arrival": "23:49",
+      "duration": "4h 38m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.6,
+      "reviews": 663,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Bhopal",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SAGDEW",
+      "name": "Sagar Dewas Link",
+      "origin": "Sagar",
+      "destination": "Dewas",
+      "departure": "19:58",
+      "arrival": "01:33",
+      "duration": "5h 35m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 692,
+      "boardingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWBHO",
+      "name": "Rewa Bhopal Link",
+      "origin": "Rewa",
+      "destination": "Bhopal",
+      "departure": "14:18",
+      "arrival": "20:47",
+      "duration": "6h 29m",
+      "fare": 790,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.6,
+      "reviews": 468,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWIND",
+      "name": "Rewa Indore Link",
+      "origin": "Rewa",
+      "destination": "Indore",
+      "departure": "15:05",
+      "arrival": "21:07",
+      "duration": "6h 02m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4,
+      "reviews": 497,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Sagar",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWJAB",
+      "name": "Rewa Jabalpur Link",
+      "origin": "Rewa",
+      "destination": "Jabalpur",
+      "departure": "15:52",
+      "arrival": "21:27",
+      "duration": "5h 35m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.1,
+      "reviews": 526,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWGWA",
+      "name": "Rewa Gwalior Link",
+      "origin": "Rewa",
+      "destination": "Gwalior",
+      "departure": "16:39",
+      "arrival": "21:02",
+      "duration": "4h 23m",
+      "fare": 440,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 555,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Sagar",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWUJJ",
+      "name": "Rewa Ujjain Link",
+      "origin": "Rewa",
+      "destination": "Ujjain",
+      "departure": "17:26",
+      "arrival": "21:22",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 584,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Sagar",
+        "name": "Sagar Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWSAG",
+      "name": "Rewa Sagar Link",
+      "origin": "Rewa",
+      "destination": "Sagar",
+      "departure": "18:13",
+      "arrival": "21:42",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 613,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Ujjain",
+        "Satna"
+      ],
+      "restStop": {
+        "city": "Ujjain",
+        "name": "Ujjain Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWRAT",
+      "name": "Rewa Ratlam Link",
+      "origin": "Rewa",
+      "destination": "Ratlam",
+      "departure": "06:34",
+      "arrival": "10:45",
+      "duration": "4h 11m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 700,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-REWDEW",
+      "name": "Rewa Dewas Link",
+      "origin": "Rewa",
+      "destination": "Dewas",
+      "departure": "07:21",
+      "arrival": "11:44",
+      "duration": "4h 23m",
+      "fare": 440,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.1,
+      "reviews": 729,
+      "boardingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Jabalpur",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATBHO",
+      "name": "Satna Bhopal Link",
+      "origin": "Satna",
+      "destination": "Bhopal",
+      "departure": "15:41",
+      "arrival": "23:07",
+      "duration": "7h 26m",
+      "fare": 940,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4,
+      "reviews": 505,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Ratlam",
+        "Rewa"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATIND",
+      "name": "Satna Indore Link",
+      "origin": "Satna",
+      "destination": "Indore",
+      "departure": "16:28",
+      "arrival": "23:27",
+      "duration": "6h 59m",
+      "fare": 880,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.1,
+      "reviews": 534,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATJAB",
+      "name": "Satna Jabalpur Link",
+      "origin": "Satna",
+      "destination": "Jabalpur",
+      "departure": "17:15",
+      "arrival": "23:02",
+      "duration": "5h 47m",
+      "fare": 580,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.2,
+      "reviews": 563,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Ratlam",
+        "Ujjain"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATGWA",
+      "name": "Satna Gwalior Link",
+      "origin": "Satna",
+      "destination": "Gwalior",
+      "departure": "18:02",
+      "arrival": "23:22",
+      "duration": "5h 20m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 592,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATUJJ",
+      "name": "Satna Ujjain Link",
+      "origin": "Satna",
+      "destination": "Ujjain",
+      "departure": "18:49",
+      "arrival": "23:42",
+      "duration": "4h 53m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.4,
+      "reviews": 621,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Ratlam",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATSAG",
+      "name": "Satna Sagar Link",
+      "origin": "Satna",
+      "destination": "Sagar",
+      "departure": "19:36",
+      "arrival": "23:17",
+      "duration": "3h 41m",
+      "fare": 370,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.5,
+      "reviews": 650,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATREW",
+      "name": "Satna Rewa Link",
+      "origin": "Satna",
+      "destination": "Rewa",
+      "departure": "06:23",
+      "arrival": "09:37",
+      "duration": "3h 14m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.6,
+      "reviews": 679,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Ratlam",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Ratlam",
+        "name": "Ratlam Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATRAT",
+      "name": "Satna Ratlam Link",
+      "origin": "Satna",
+      "destination": "Ratlam",
+      "departure": "07:57",
+      "arrival": "10:56",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.1,
+      "reviews": 737,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Bhopal",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-SATDEW",
+      "name": "Satna Dewas Link",
+      "origin": "Satna",
+      "destination": "Dewas",
+      "departure": "08:44",
+      "arrival": "12:40",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.2,
+      "reviews": 766,
+      "boardingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATBHO",
+      "name": "Ratlam Bhopal Link",
+      "origin": "Ratlam",
+      "destination": "Bhopal",
+      "departure": "17:04",
+      "arrival": "01:27",
+      "duration": "8h 23m",
+      "fare": 1010,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.1,
+      "reviews": 542,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Indore",
+        "name": "Indore Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATIND",
+      "name": "Ratlam Indore Link",
+      "origin": "Ratlam",
+      "destination": "Indore",
+      "departure": "17:51",
+      "arrival": "01:02",
+      "duration": "7h 11m",
+      "fare": 850,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.2,
+      "reviews": 571,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Bhopal",
+        "Dewas"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATJAB",
+      "name": "Ratlam Jabalpur Link",
+      "origin": "Ratlam",
+      "destination": "Jabalpur",
+      "departure": "18:38",
+      "arrival": "01:22",
+      "duration": "6h 44m",
+      "fare": 880,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.3,
+      "reviews": 600,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Gwalior",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATGWA",
+      "name": "Ratlam Gwalior Link",
+      "origin": "Ratlam",
+      "destination": "Gwalior",
+      "departure": "19:25",
+      "arrival": "01:42",
+      "duration": "6h 17m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.4,
+      "reviews": 629,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Bhopal",
+        "Rewa"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATUJJ",
+      "name": "Ratlam Ujjain Link",
+      "origin": "Ratlam",
+      "destination": "Ujjain",
+      "departure": "06:12",
+      "arrival": "11:17",
+      "duration": "5h 05m",
+      "fare": 510,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.5,
+      "reviews": 658,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATSAG",
+      "name": "Ratlam Sagar Link",
+      "origin": "Ratlam",
+      "destination": "Sagar",
+      "departure": "06:59",
+      "arrival": "11:37",
+      "duration": "4h 38m",
+      "fare": 530,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.6,
+      "reviews": 687,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Bhopal",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATREW",
+      "name": "Ratlam Rewa Link",
+      "origin": "Ratlam",
+      "destination": "Rewa",
+      "departure": "07:46",
+      "arrival": "11:57",
+      "duration": "4h 11m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 716,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Bhopal"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATSAT",
+      "name": "Ratlam Satna Link",
+      "origin": "Ratlam",
+      "destination": "Satna",
+      "departure": "08:33",
+      "arrival": "11:32",
+      "duration": "2h 59m",
+      "fare": 310,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.1,
+      "reviews": 745,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Dewas",
+        "Bhopal",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Bhopal",
+        "name": "Bhopal Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-RATDEW",
+      "name": "Ratlam Dewas Link",
+      "origin": "Ratlam",
+      "destination": "Dewas",
+      "departure": "10:07",
+      "arrival": "13:36",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 803,
+      "boardingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "droppingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Jabalpur",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWBHO",
+      "name": "Dewas Bhopal Link",
+      "origin": "Dewas",
+      "destination": "Bhopal",
+      "departure": "18:27",
+      "arrival": "03:02",
+      "duration": "8h 35m",
+      "fare": 990,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.2,
+      "reviews": 579,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Bhopal Bus Stand",
+        "Bhopal City Center",
+        "Bhopal Bypass"
+      ],
+      "routeStops": [
+        "Jabalpur",
+        "Gwalior",
+        "Ujjain"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWIND",
+      "name": "Dewas Indore Link",
+      "origin": "Dewas",
+      "destination": "Indore",
+      "departure": "19:14",
+      "arrival": "03:22",
+      "duration": "8h 08m",
+      "fare": 1010,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.3,
+      "reviews": 608,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Indore Bus Stand",
+        "Indore City Center",
+        "Indore Bypass"
+      ],
+      "routeStops": [
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWJAB",
+      "name": "Dewas Jabalpur Link",
+      "origin": "Dewas",
+      "destination": "Jabalpur",
+      "departure": "06:01",
+      "arrival": "13:42",
+      "duration": "7h 41m",
+      "fare": 940,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.4,
+      "reviews": 637,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Jabalpur Bus Stand",
+        "Jabalpur City Center",
+        "Jabalpur Bypass"
+      ],
+      "routeStops": [
+        "Ujjain",
+        "Gwalior",
+        "Indore"
+      ],
+      "restStop": {
+        "city": "Gwalior",
+        "name": "Gwalior Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWGWA",
+      "name": "Dewas Gwalior Link",
+      "origin": "Dewas",
+      "destination": "Gwalior",
+      "departure": "06:48",
+      "arrival": "13:17",
+      "duration": "6h 29m",
+      "fare": 790,
+      "totalSeats": 36,
+      "type": "Non-AC Sleeper",
+      "rating": 4.5,
+      "reviews": 666,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Gwalior Bus Stand",
+        "Gwalior City Center",
+        "Gwalior Bypass"
+      ],
+      "routeStops": [
+        "Sagar",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWUJJ",
+      "name": "Dewas Ujjain Link",
+      "origin": "Dewas",
+      "destination": "Ujjain",
+      "departure": "07:35",
+      "arrival": "13:37",
+      "duration": "6h 02m",
+      "fare": 810,
+      "totalSeats": 36,
+      "type": "AC Sleeper",
+      "rating": 4.6,
+      "reviews": 695,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Ujjain Bus Stand",
+        "Ujjain City Center",
+        "Ujjain Bypass"
+      ],
+      "routeStops": [
+        "Rewa",
+        "Jabalpur",
+        "Ratlam"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Sleeper",
+        "Blanket",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWSAG",
+      "name": "Dewas Sagar Link",
+      "origin": "Dewas",
+      "destination": "Sagar",
+      "departure": "08:22",
+      "arrival": "13:57",
+      "duration": "5h 35m",
+      "fare": 600,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4,
+      "reviews": 724,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Sagar Bus Stand",
+        "Sagar City Center",
+        "Sagar Bypass"
+      ],
+      "routeStops": [
+        "Satna",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 6 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWREW",
+      "name": "Dewas Rewa Link",
+      "origin": "Dewas",
+      "destination": "Rewa",
+      "departure": "09:09",
+      "arrival": "13:32",
+      "duration": "4h 23m",
+      "fare": 440,
+      "totalSeats": 32,
+      "type": "Non-AC Seater",
+      "rating": 4.1,
+      "reviews": 753,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Rewa Bus Stand",
+        "Rewa City Center",
+        "Rewa Bypass"
+      ],
+      "routeStops": [
+        "Ratlam",
+        "Jabalpur",
+        "Sagar"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWSAT",
+      "name": "Dewas Satna Link",
+      "origin": "Dewas",
+      "destination": "Satna",
+      "departure": "09:56",
+      "arrival": "13:52",
+      "duration": "3h 56m",
+      "fare": 460,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.2,
+      "reviews": 782,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Satna Bus Stand",
+        "Satna City Center",
+        "Satna Bypass"
+      ],
+      "routeStops": [
+        "Bhopal",
+        "Jabalpur"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    },
+    {
+      "id": "MP-DEWRAT",
+      "name": "Dewas Ratlam Link",
+      "origin": "Dewas",
+      "destination": "Ratlam",
+      "departure": "10:43",
+      "arrival": "14:12",
+      "duration": "3h 29m",
+      "fare": 400,
+      "totalSeats": 32,
+      "type": "AC Seater",
+      "rating": 4.3,
+      "reviews": 811,
+      "boardingPoints": [
+        "Dewas Bus Stand",
+        "Dewas City Center",
+        "Dewas Bypass"
+      ],
+      "droppingPoints": [
+        "Ratlam Bus Stand",
+        "Ratlam City Center",
+        "Ratlam Bypass"
+      ],
+      "routeStops": [
+        "Indore",
+        "Jabalpur",
+        "Gwalior"
+      ],
+      "restStop": {
+        "city": "Jabalpur",
+        "name": "Jabalpur Highway Plaza",
+        "duration": "10 min",
+        "note": "Washroom and refreshments break"
+      },
+      "cancellation": "Free cancellation before 3 hours",
+      "amenities": [
+        "AC",
+        "Charging",
+        "Water"
+      ]
+    }
+  ],
+  "reservations": [
+    {
+      "id": "TKT-1012",
+      "busId": "MP612",
+      "passengerName": "khushi jain",
+      "phone": "8989855432",
+      "passengerEmail": "khushirj609@gmail",
+      "passengerAge": "20",
+      "passengerGender": "Female",
+      "journeyDate": "2026-05-21",
+      "boardingPoint": "Rewa Bus Stand",
+      "droppingPoint": "Satna Bus Stand",
+      "seats": [
+        2
+      ],
+      "subtotal": 180,
+      "discount": 75,
+      "promoCode": "STUDENT",
+      "total": 105,
+      "status": "Booked",
+      "checkedInAt": "",
+      "bookedAt": "2026-05-21T08:32:15.739Z"
+    },
+    {
+      "id": "TKT-1013",
+      "busId": "MP-SAGJAB",
+      "passengerName": "mahak",
+      "phone": "882288334",
+      "passengerEmail": "mahak44@gmail.com",
+      "passengerAge": "23",
+      "passengerGender": "Female",
+      "journeyDate": "2026-05-21",
+      "boardingPoint": "Sagar Bus Stand",
+      "droppingPoint": "Jabalpur Bus Stand",
+      "seats": [
+        12
+      ],
+      "subtotal": 530,
+      "discount": 75,
+      "promoCode": "STUDENT",
+      "total": 455,
+      "status": "Booked",
+      "checkedInAt": "",
+      "bookedAt": "2026-05-21T09:25:20.823Z"
+    }
+  ],
+  "counters": {
+    "reservation": 1014
+  }
+}
